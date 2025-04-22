@@ -1,24 +1,30 @@
 import type React from "react"
-import "@/styles/globals.css"
+import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import "./globals.css"
+import Header from "@/components/header"
+import Footer from "@/components/footer"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata = {
-  title: "SteadAI - AI/ML and Data Science Services",
-  description: "Empowering your business with cutting-edge AI and data science solutions.",
+export const metadata: Metadata = {
+  title: "SteadAI - AI & Data Solutions",
+  description: "Expert services in Artificial Intelligence, Machine Learning, Data Science, and Data Engineering",
     generator: 'v0.dev'
 }
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   )
 }
-
