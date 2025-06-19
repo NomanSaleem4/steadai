@@ -69,14 +69,14 @@ export default function TeamPage() {
                 </div>
                 <div className="p-6 space-y-4">
                   <div className="space-y-1">
-                    <h3 className="text-xl font-bold">Team Member</h3>
-                    <p className="text-cyan-600">Data Scientist</p>
+                    <h3 className="text-xl font-bold">Hamad Ul Qudous</h3>
+                    <p className="text-cyan-600">Research Head</p>
                   </div>
                   <p className="text-slate-500">
-                    Specializes in statistical analysis and predictive modeling for business insights.
+                    Leading AI/ML research at SteadAI.
                   </p>
                   <div className="flex space-x-4 pt-2">
-                    <Link href="#" className="text-blue-600 hover:text-blue-800 flex items-center">
+                    <Link href="https://www.linkedin.com/in/hamad-ulqudous-3a2a4869/" className="text-blue-600 hover:text-blue-800 flex items-center">
                       <Linkedin className="h-5 w-5 mr-1" />
                       LinkedIn
                     </Link>
@@ -94,11 +94,11 @@ export default function TeamPage() {
                 </div>
                 <div className="p-6 space-y-4">
                   <div className="space-y-1">
-                    <h3 className="text-xl font-bold">Team Member</h3>
-                    <p className="text-cyan-600">Data Engineer</p>
+                    <h3 className="text-xl font-bold">Abdul Basit</h3>
+                    <p className="text-cyan-600">Senior Mobile Developer</p>
                   </div>
                   <p className="text-slate-500">
-                    Expert in building scalable data pipelines and infrastructure for AI applications.
+                    Expert in building IOS Applications.
                   </p>
                   <div className="flex space-x-4 pt-2">
                     <Link href="#" className="text-blue-600 hover:text-blue-800 flex items-center">
