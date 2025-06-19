@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image";
 import { Linkedin } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -23,10 +24,14 @@ export default function TeamPage() {
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
               <CardContent className="p-0">
                 <div className="h-64 w-full relative bg-slate-200">
-                  {/* Placeholder for team member photo */}
-                  <div className="absolute inset-0 flex items-center justify-center text-slate-400">
-                    <span>Photo</span>
-                  </div>
+                
+                  <Image
+                    src="/team/noman_saleem.jpeg" // Adjust path as needed
+                    alt="Noman Saleem Photo"
+                    fill={true}
+                    className="object-cover object-[center_10%]"                
+                                  />
+                
                 </div>
                 <div className="p-6 space-y-4">
                   <div className="space-y-1">
@@ -63,9 +68,14 @@ export default function TeamPage() {
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
               <CardContent className="p-0">
                 <div className="h-64 w-full relative bg-slate-200">
-                  <div className="absolute inset-0 flex items-center justify-center text-slate-400">
-                    <span>Photo</span>
-                  </div>
+                  
+                    <Image
+                    src="/team/hamad_ul_qudous.jpeg" // Adjust path as needed
+                    alt="Hamad Ul Photo"
+                    fill={true}
+                    className="object-cover object-[center_50%]"    
+                  />
+                 
                 </div>
                 <div className="p-6 space-y-4">
                   <div className="space-y-1">
